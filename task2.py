@@ -1,11 +1,10 @@
-print("Input a number")
+print("Enter a numerical value")
 x = input()
-x = int(x)
-y = 0
-y = int(y)
-if x > y:
+x = float(x)
+
+if x > 0:
     print("positive")
-if x < y:
+elif x == 0:
+    print("zero")
+else:
     print("negative")
-if x == y:
-    print("zero"
